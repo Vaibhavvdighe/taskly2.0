@@ -10,8 +10,10 @@ function App() {
     {
       path:"/",
       element:<>
-      <Navbar/>
-      <Home/>
+      <div>
+        <Navbar/>
+        <Home/>
+      </div>
       <Footer/>
       </>
     },
