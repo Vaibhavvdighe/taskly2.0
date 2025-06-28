@@ -91,7 +91,7 @@ const Container = () => {
   
 
   return (
-    <div className='container1 bg-zinc-300 rounded-xl w-full md:w-3/4 m-auto h-fit p-2 md:px-5 '>
+    <div className='container1 bg-zinc-300 rounded-xl w-full md:w-3/4 m-auto h-fit p-2 md:px-5 mt-10'>
         	<h2 className='my-2 font-bold md:text-xl text-sm'>Got some Task?</h2>
         	<div className="addContainer flex justify-evenly m-auto w-full">
         		<input type="text" name="" id="" onChange={handleChange} value={todo} className='bg-white md:rounded-xl w-2/3 md:h-10 md:p-2 p-1 h-6 rounded-lg'/>
